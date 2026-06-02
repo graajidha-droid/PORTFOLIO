@@ -68,6 +68,10 @@ The application will be available at:
 
 http://localhost:5173
 
+###Screenshots 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/deb04b26-229c-4016-99e0-85dc8eea480f" />
+
+
  🚀 Deployment
 
 This project is deployed on Vercel.
