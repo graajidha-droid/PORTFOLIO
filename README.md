@@ -69,7 +69,11 @@ The application will be available at:
 http://localhost:5173
 
 ###Screenshots 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/deb04b26-229c-4016-99e0-85dc8eea480f" />
+<img width="1843" height="866" alt="Screenshot 2026-06-02 190718" src="https://github.com/user-attachments/assets/6d2d908a-0168-47a3-8f24-5351f5d39291" />
+<img width="1917" height="893" alt="Screenshot 2026-06-02 190733" src="https://github.com/user-attachments/assets/4e7e627a-e7a9-4fb5-91de-1fe3e154c73b" />
+<img width="1918" height="902" alt="Screenshot 2026-06-02 190742" src="https://github.com/user-attachments/assets/90e85cb7-4f45-46cd-a883-8b7fe316ae3e" />
+<img width="1919" height="899" alt="Screenshot 2026-06-02 190844" src="https://github.com/user-attachments/assets/e7fc571b-c6a3-46b5-839e-b7ad051ed7ae" />
+
 
 
  🚀 Deployment
