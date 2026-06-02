@@ -36,15 +36,15 @@ Theme switching with persistent user preferences.
 
 Optimized for desktop, tablet, and mobile devices.
 
- 🚀 Project Showcase
+### 🚀 Project Showcase
 
 Highlights projects with descriptions, technologies used, GitHub repositories, and live demos.
 
- 📬 Contact Section
+ ###📬 Contact Section
 
 Easy ways for recruiters and collaborators to connect.
 
- 👌 Quick Start
+ ###👌 Quick Start
 
  Prerequisites
 
@@ -59,7 +59,7 @@ git clone https://github.com/graajidha-droid/PORTFOLIO.git
 cd PORTFOLIO
 npm install
 
- ##Run Development Server
+ Run Development Server
 
 bash
 npm run dev
