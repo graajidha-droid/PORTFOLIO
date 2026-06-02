@@ -1,28 +1,82 @@
-# React + Vite
+# PORTFOLIO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 Live Demo: https://portfolio-six-orcin-75.vercel.app/
 
-Currently, two official plugins are available:
+ 📋 Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Tech Stack
+* Features
+* Quick Start
+* Deployment
 
-## React Compiler
+## ⚙️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* Tailwind CSS
+* TypeScript
+* Git & GitHub
+* Vercel
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 👨‍💻 Personal Portfolio
 
-## Resume PDF
+Showcases my education, technical skills, projects, certifications, and achievements.
 
-This project now uses the exact resume file stored at `public/G_Raajidha_Resume.pdf`.
- 
- You can keep that file as the canonical resume and access it directly in the browser at:
- 
- ```text
- http://localhost:5174/G_Raajidha_Resume.pdf
- ```
- 
- The page download button uses this file as the resume source.
+### 🎨 Modern User Interface
+
+Clean design with smooth animations and responsive layouts.
+
+### 🌗 Dark / Light Theme
+
+Theme switching with persistent user preferences.
+
+### 📱 Fully Responsive
+
+Optimized for desktop, tablet, and mobile devices.
+
+ 🚀 Project Showcase
+
+Highlights projects with descriptions, technologies used, GitHub repositories, and live demos.
+
+ 📬 Contact Section
+
+Easy ways for recruiters and collaborators to connect.
+
+ 👌 Quick Start
+
+ Prerequisites
+
+* Node.js
+* npm
+* Git
+
+Installation
+
+bash
+git clone https://github.com/graajidha-droid/PORTFOLIO.git
+cd PORTFOLIO
+npm install
+
+ ##Run Development Server
+
+bash
+npm run dev
+
+The application will be available at:
+
+http://localhost:5173
+
+ 🚀 Deployment
+
+This project is deployed on Vercel.
+
+Live Site:
+
+https://portfolio-six-orcin-75.vercel.app/
+
+ 📄 License
+
+This project is open source and available for learning and personal use.
+
