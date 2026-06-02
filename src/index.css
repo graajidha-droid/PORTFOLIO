@@ -1,0 +1,146 @@
+@import "tailwindcss";
+
+@theme {
+  --color-darkBg: #0F172A;
+  --color-darkCard: rgba(30, 41, 59, 0.65);
+  --color-lightBg: #EAF8FF;
+  --color-lightCard: rgba(255, 255, 255, 0.96);
+  --color-lightBorder: rgba(56, 189, 248, 0.18);
+  
+  --font-sans: 'Outfit', 'Inter', sans-serif;
+  
+  --animate-spin-slow: spin 12s linear infinite;
+  --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-float-slow: float 6s ease-in-out infinite;
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+}
+
+/* Glassmorphism Styles */
+.glass-card {
+  background: rgba(20, 28, 40, 0.55);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.light .glass-card {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(59, 130, 246, 0.14);
+}
+
+.dark-only-card {
+  background: rgba(10, 20, 35, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(56, 189, 248, 0.18);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.18);
+}
+
+/* Competency donut styles */
+.donut-bg {
+  stroke: rgba(255,255,255,0.08);
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+.donut-fg {
+  stroke: rgba(56,189,248,0.95);
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+.dark-only-card .donut-bg {
+  stroke: rgba(255,255,255,0.06);
+}
+.dark-only-card .donut-fg {
+  stroke: rgba(255,255,255,0.92);
+}
+.competency-label {
+  letter-spacing: -0.01em;
+}
+
+.glass-nav {
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.light .glass-nav {
+  background: rgba(56, 189, 248, 0.08);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(56, 189, 248, 0.16);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0F172A;
+}
+
+.light ::-webkit-scrollbar-track {
+  background: #F8FAFC;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4F46E5;
+}
+
+/* Mesh Gradients */
+.bg-mesh-dark {
+  background-color: #0F172A;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(56, 189, 248, 0.15) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, rgba(168, 85, 247, 0.15) 0px, transparent 50%),
+    radial-gradient(at 50% 100%, rgba(56, 189, 248, 0.1) 0px, transparent 50%);
+}
+
+.bg-mesh-light {
+  background-color: #F5FBFF;
+  background-image: 
+    radial-gradient(at 12% 10%, rgba(56, 189, 248, 0.18) 0px, transparent 35%),
+    radial-gradient(at 90% 20%, rgba(167, 139, 250, 0.16) 0px, transparent 35%),
+    radial-gradient(at 50% 90%, rgba(16, 185, 129, 0.12) 0px, transparent 40%);
+}
+
+/* Typing Caret Animation */
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+.typing-caret {
+  border-right: 3px solid #38BDF8;
+  animation: blink 0.75s step-end infinite;
+}
+
+/* Glowing text */
+.text-glow-sky {
+  text-shadow: 0 0 6px rgba(56, 189, 248, 0.18);
+}
+
+/* Mobile adjustments to improve layout and performance */
+@media (max-width: 640px) {
+  .glass-card {
+    padding: 1rem !important;
+    border-radius: 12px !important;
+    backdrop-filter: blur(6px) !important;
+  }
+  .bg-mesh-dark, .bg-mesh-light {
+    background-image: none;
+  }
+  .text-3xl { font-size: 1.5rem; }
+  .text-4xl { font-size: 1.75rem; }
+}
